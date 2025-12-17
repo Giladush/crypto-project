@@ -2,3 +2,10 @@
     display: block;
     margin: 40px auto;
 }
+body {
+    background-color: #c5dcf4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}

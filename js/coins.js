@@ -27,7 +27,7 @@ const loadCoinsPage = () => {
   const searchBar = $(`
   <div class="row g-2 align-items-center mb-3">
     <div class="col-12 col-md-6">
-      <input id="search-symbol" class="form-control" placeholder="Search by symbol (e.g. BTC)" />
+      <input id="search-symbol" class="form-control" placeholder="Search for coin" />
     </div>
     <div class="col-12 col-md-auto">
       <button id="btn-search" class="btn btn-primary w-100">Search</button>
@@ -147,7 +147,6 @@ const wireCoinCardEvents = () => {
   
   $('.btn-more').off('click').on('click', function () {
     const id = $(this).data('coin-id');
-    console.log('More Info clicked:', id);
     loadMoreInfo(id);
   });
 };
